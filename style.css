@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lora", sans-serif;
+}
+
+header{
+  position: absolute;
+  box-shadow: 0 0 3rem rgb(24, 20, 20);
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0dcaf0;
+
+  padding: 10px
+} 
+
+ul{
+  display: flex;
+  margin: 25px
+}
+
+li{
+  color: #ffffff;
+  list-style-type: none;
+  padding-left: 4rem;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.adicionar{
+    display: block;
+    background-color: #bebaba;
+    font-family: "Lora", sans-serif;
+}
+
+
+.formulario{
+  border: none;
+  width:100vh;
+  margin:auto;
+ 
+  position: relative;
+}
+
+.cadastro{
+  padding-top: 22%;
+  font-size: 21px;
+  text-align: center;
+}
+
+label{
+  position: relative;
+  display: block ;
+  text-align: left;
+  margin: 10px 0px;
+  
+}
+
+input{
+  padding: 5px;
+  width: 95%;
+  height: 35px;
+  border-radius: 3px;
+  border: none
+}
+
+.btn{
+  background-color:#0dcaf0 !important; 
+  font-family: 'Lora' !important;
+  color: #ffff !important;
+  width: 150px !important;
+  height: 40px !important;
+  padding: 5px !important;
+}
+
+.div-btn{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+
+::placeholder{
+  font-family: "Lora", sans-serif;
+  font-size: 12px;
+}
+
+
+.img{
+  padding-left: 20px;
+  height: 70px
+}
+

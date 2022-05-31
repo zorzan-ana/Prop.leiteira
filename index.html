@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controle leiteiro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img class="img" src="images/vaquinha.png.opdownload" />
+      <nav>
+        <ul>
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>Média do leite</a>
+          </li>
+          <li>
+            <a>Sobre</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="adicionar">
+      <form>
+        <fieldset class="formulario">
+          <div class="cadastro"><b>Cadastro</b></div>
+
+          <div>
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Ex. Bombom" />
+          </div>
+
+          <div>
+            <label>Número</label>
+            <input
+              type="number"
+              name="numero"
+              id="numero"
+              placeholder="Ex. 08"
+            />
+          </div>
+
+          <div>
+            <label>Data de nasciemnto</label>
+            <input class="data_nasc"
+              type="date"
+              name="date"
+              id="data_nascimento"
+
+            />
+          </div>
+
+          <div>
+            <label>Nome da mãe </label>
+            <input
+              type="text"
+              name="nomeMae"
+              id="nomeMae"
+              placeholder="Ex. Dalila"
+            />
+          </div>
+
+          <div>
+            <label>Número da mãe </label>
+            <input
+              type="number"
+              name="nuemroMae"
+              id="nuemroMae"
+              placeholder="Ex. 158"
+            />
+          </div>
+
+          <div>
+            <label>Nome do pai</label>
+            <input
+              type="text"
+              name="nomePai"
+              id="nomePai"
+              placeholder="Ex. Airlift"
+            />
+          </div>
+
+          <div class="div-btn">
+            <button class="btn">Salvar</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <div class="card">
+        <div class="card-body">
+          This is some text within a card body.
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
