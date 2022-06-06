@@ -35,10 +35,11 @@ li{
   cursor: pointer;
 }
 
-.adicionar{
+.adicionar, .sectionCards{
     display: block;
     background-color: #bebaba;
     font-family: "Lora", sans-serif;
+    padding: 1px;
 }
 
 
@@ -98,5 +99,18 @@ input{
 .img{
   padding-left: 20px;
   height: 70px
+}
+
+.card-body{
+  display: flex;
+}
+
+.card{
+  margin: 70px;
+}
+
+.foto{
+  height: 298px;
+  width: 400px;
 }
 

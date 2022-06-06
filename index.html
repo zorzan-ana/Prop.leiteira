@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Controle leiteiro</title>
     <link rel="stylesheet" href="style.css" />
@@ -33,7 +32,7 @@
     </header>
 
     <section class="adicionar">
-      <form>
+      <form id="contactForm">
         <fieldset class="formulario">
           <div class="cadastro"><b>Cadastro</b></div>
 
@@ -54,11 +53,12 @@
 
           <div>
             <label>Data de nasciemnto</label>
-            <input class="data_nasc"
-              type="date"
+            <input
+              class="data_nasc"
+              type="text"
               name="date"
               id="data_nascimento"
-
+              placeholder="12/06/2022"
             />
           </div>
 
@@ -76,8 +76,8 @@
             <label>Número da mãe </label>
             <input
               type="number"
-              name="nuemroMae"
-              id="nuemroMae"
+              name="numeroMae"
+              id="numeroMae"
               placeholder="Ex. 158"
             />
           </div>
@@ -93,17 +93,16 @@
           </div>
 
           <div class="div-btn">
-            <button class="btn">Salvar</button>
+            <button class="btn" id="submit">Salvar</button>
           </div>
         </fieldset>
       </form>
     </section>
-    <section>
-      <div class="card">
-        <div class="card-body">
-          This is some text within a card body.
-        </div>
-      </div>
+    <section class="sectionCards">
+      <div id="accordion"></div>
     </section>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+    <script src="db.js"></script>
   </body>
 </html>
